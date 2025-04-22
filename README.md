@@ -6,6 +6,12 @@ please include <code>plugin:import/typescript</code> in .eslintrc.cjs file to re
 
 <strong>do not use hook 👇 after a conditional return statement.</strong>
 ```javascript
+const handleSomething = () => {
+  if(state) {
+    return <Spinner />;
+  }
+};
+
 useEffect(() => {
   // ...something
 },[]);
