@@ -9,4 +9,4 @@ useEffect(() => {
   // ...something
 },[]);
 ```
-<strong>do not use  hook after a conditional return statement.</strong>
+<strong>do not use hook ![downarrow](https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX42628009.jpg) after a conditional return statement.</strong>
