@@ -4,9 +4,9 @@ please include <code>plugin:import/typescript</code> in .eslintrc.cjs file to re
 ## do not try to pull out constants, enums or interfaces in a seperate directory from the inside of a namespace because it would be better if all the related types, enums and interfaces are grouped together inside the namespace rather than fragmented in different directories.
 <code>describe(‘DisplayName’, () => {});</code>, A convention we use here is to wrap a component name in tags, i.e. <DisplayName />
 
+<strong>do not use hook 👇 after a conditional return statement.</strong>
 ```javascript
 useEffect(() => {
   // ...something
 },[]);
 ```
-<strong>do not use hook ![downarrow](https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX42628009.jpg) after a conditional return statement.</strong>
