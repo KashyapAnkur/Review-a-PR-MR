@@ -5,6 +5,7 @@
 - <code>describe(‘DisplayName’, () => {});</code>, A convention we use here is to wrap a component name in tags, i.e. <DisplayName />
 
 - <strong>do not use hook 👇 after a conditional return statement.</strong>
+
 ```javascript
 const handleSomething = () => {
   if(state) {
@@ -16,3 +17,4 @@ useEffect(() => {
   // ...something
 },[]);
 ```
+- 
