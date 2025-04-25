@@ -17,4 +17,7 @@ useEffect(() => {
   // ...something
 },[]);
 ```
-- 
+- Do not use <code>refetch</code> when you get a fresh data from API.
+  - Because ... in progress...
+
+- **Leave Site?** <- you can not change the header message coming in the browser's alert box. This is the expected behaviour.
